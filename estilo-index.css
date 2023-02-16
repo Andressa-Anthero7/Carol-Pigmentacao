@@ -602,7 +602,7 @@
     }
 
     #header{
-        width:410px;
+        width:414px;
         
         position: relative;
         left:-1em;
@@ -612,7 +612,7 @@
     
 
     #img-header{
-        max-width:300px;
+        min-width:300px;
         position: relative;
         left:4em;
         top:-3em;
@@ -692,10 +692,17 @@
     #video{
         position: relative;
         top:0em;
-        left:-0.5em;
+        left:-1em;
        
-         max-width: 375px;
+         min-width: 414px;
         min-height: 400px;
+    }
+
+    #text-aux-video{
+        font-size:1em;
+        max-width: 390px;
+        position: relative;
+        left:0.5em;
     }
 
     #embed-video{
@@ -706,8 +713,8 @@
 
     #carousel{
         position: relative;
-        left:-0.6em;
-         max-width: 380px;
+        left:-0.8em;
+         min-width: 414px;
     }
 
     #perfil-profissional{
@@ -721,8 +728,8 @@
 
     #img-perfil-profissional{
         position: relative;
-        left:1.5em;
-        top:-20em;
+        left:7em;
+        top:-19em;
         
         height: 420px;
         
