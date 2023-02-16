@@ -1,0 +1,130 @@
+*{
+	 margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:white;
+}
+
+
+
+/* Celulares até 5,5 Polegadas Tamanho G */
+@media (min-width: 376px) and (max-width:  414.98px) {
+    body{
+        margin: 0;
+        padding: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(121,9,77,1) 70%);
+        
+       min-height: 900px;
+    }
+
+    html{
+         overflow-x: hidden;
+
+    }
+
+    .container-fluid{
+
+         width: 400px;
+         
+
+
+    }
+
+    #header{
+        width:410px;
+        
+        position: relative;
+        left:-1em;
+    }
+
+    #img-header{
+        max-width:300px;
+        position: relative;
+        left:4em;
+        top:-3em;
+
+
+
+    }
+
+    #text-head-line{
+        position: relative;
+        left:1.5em;
+        top:6em;
+        font-size: 1.2em;
+        white-space:normal;
+        max-width: 200px;
+    }
+
+    .check-valida{
+        position: relative;
+        top:-1em;
+        left:10.5em;
+        color:green;
+        font-size:2em;
+    }
+
+   
+
+    #formulario{
+        
+       
+        min-width: 400px;
+        min-height: 500px;
+       
+        
+        position: relative;
+        left: -1em;
+        top:-3.5em;
+
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+                
+      
+       
+    }
+
+    .campo-formulario{
+        max-width:375px;
+        position: relative;
+        left:0.5em;
+    }
+
+    #btn-enviar{
+        position: relative;
+        left:0em;
+    }
+
+    #enviar{
+        min-width: 300px;
+    }
+
+    #video{
+        position: relative;
+        top:-2.5em;
+        left:-0.5em;
+        border:1px solid white;
+         min-width: 380px;
+        min-height: 400px;
+    }
+
+    #embed-video{
+        min-width: 375px;
+        min-height: 400px;
+    }
+
+    footer{
+        position: relative;
+        left:0em;
+        top:0em;
+        text-align: center;
+        color:white;
+    }
+
+}
